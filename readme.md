@@ -1,5 +1,14 @@
 To start mysql, in the terminal, type in `mysql -u root`
 
+# Commands
+`show tables;`
+`describe employees;`
+`describe taskforces;`
+`describe departments;`
+`select * from employees;`
+`select * from taskforces;`
+`select * from departments;`
+
 # Create a new database user
 In the MySQL CLI:
 ```
@@ -14,3 +23,5 @@ GRANT ALL PRIVILEGES on sakila.* TO 'ahkow'@'localhost' WITH GRANT OPTION;
  ```
 FLUSH PRIVILEGES;
 ```
+
+

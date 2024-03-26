@@ -14,3 +14,6 @@ WHERE employee_id = 1;
 -- specifies which rows to DELETE
 -- if there is no `where` clause, then all the rows are DELETED
 DELETE FROM employees WHERE employee_id = 3;
+
+-- SELECT statement to filter table by 2 criteria
+SELECT * FROM employees ORDER BY xxx;
