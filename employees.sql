@@ -46,7 +46,8 @@ INSERT INTO taskforces (name) VALUE("Work Improvement"),
 
 -- CREATE (INSERT) employees
 INSERT INTO employees(name, designation, date_of_employment,department_id,taskforce_id)
-VALUES ("Steve Jobs", "CEO", "2022-01-01", 2, 1);
+VALUES ("Steve Jobs", "CEO", "2022-01-01", 2, 1),
+("Bill Gates", "Manager", "2022-01-31", 1, 3);
 
 INSERT INTO employees(name, designation, date_of_employment,department_id,taskforce_id)
 VALUES ("Elon Musk", "COO", "2022-01-01", 3, 2),
@@ -55,3 +56,6 @@ VALUES ("Elon Musk", "COO", "2022-01-01", 3, 2),
 -- UPDATE an existing row
 UPDATE employees SET date_of_employment="2022-01-23"
 WHERE employee_id = 1;
+
+-- DELETE from employees
+DELETE FROM employees WHERE employee_id = 3;
