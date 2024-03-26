@@ -43,3 +43,6 @@ FOREIGN KEY (taskforce_id) REFERENCES taskforces(taskforce_id);
 INSERT INTO taskforces (name) VALUE("Work Improvement"),
 ("Customer Satisfaction"),
 ("Cohesion");
+
+INSERT INTO employees(name, designation, date_of_employment,department_id,taskforce_id)
+VALUES ("Steve Jobs", "CEO", "2022-01-01", 2, 1);
