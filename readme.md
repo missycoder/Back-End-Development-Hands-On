@@ -1,6 +1,6 @@
 To start mysql, in the terminal, type in `mysql -u root`
 
-# Commands
+# MySQL Commands
 `show tables;`
 `describe employees;`
 `describe taskforces;`
@@ -8,6 +8,15 @@ To start mysql, in the terminal, type in `mysql -u root`
 `select * from employees;`
 `select * from taskforces;`
 `select * from departments;`
+
+# Express Commands
+`npm init -y`
+`npm install express hbs wax-on dotenv mysql2`
+
+# Setup Express
+`create index.js file`
+`npm install -g nodemon`
+`nodemon`
 
 # Create a new database user
 In the MySQL CLI:
